@@ -1,0 +1,16 @@
+.button {
+  margin-left: 30px;
+
+  &_menu {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .button_menu {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+}
